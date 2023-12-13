@@ -16,7 +16,9 @@ import { SideBarComponent } from './components/side-bar/side-bar.component';
     CommonModule
   ],
   exports:[
-    SideBarComponent
+    SideBarComponent,
+    HeaderUserComponent,
+    MediaPlayerComponent
   ]
 })
 export class SharedModule { }
